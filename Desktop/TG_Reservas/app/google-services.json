@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "367695731153",
+    "firebase_url": "https://reservas-2c6b0.firebaseio.com",
+    "project_id": "reservas-2c6b0",
+    "storage_bucket": "reservas-2c6b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367695731153:android:00a91643ae05d5c0",
+        "android_client_info": {
+          "package_name": "pt.ipca.tg_reservas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367695731153-7rhf5455kv3u8hc5diipamhrd9v4k6lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipca.tg_reservas",
+            "certificate_hash": "29ae597a2ffdcc0248c4425d6e271259899dd12b"
+          }
+        },
+        {
+          "client_id": "367695731153-50at7vsp6boqj9ebsj4mb6sq7haljesa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJY_9fus1hBZDJAM5-A-n8h_gs3jeYCf8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367695731153-50at7vsp6boqj9ebsj4mb6sq7haljesa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

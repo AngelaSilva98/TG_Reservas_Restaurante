@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <TextView
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="23/01/2018"
+        android:id="@+id/textViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Hora: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textViewHora"
+            android:text="15:00"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Pessoas: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textViewNumeroPessoas"
+            android:text="12 pessoas"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|end"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Pratos: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textViewPratos"
+            android:text="Pratos muitos saborosos e com grande qualidade."
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|end"
+            android:textAlignment="textEnd"
+            android:layout_weight="2"
+            android:textSize="16sp"
+            android:text="Estado: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_gravity="left"
+            android:id="@+id/imageViewEstado"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
